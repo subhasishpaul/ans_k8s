@@ -8,4 +8,4 @@
   #    shell: docker image rmi subhasishpaul/docker-webapp3
 
    - name: create new container
-     shell: docker container run -itd --name mydockercontainer -p 9000:80 subhasishpaul/jenkintest
+     shell: docker container run -itd --name mydockercontainer -p 9000:80 subhasishpaul/myproj
